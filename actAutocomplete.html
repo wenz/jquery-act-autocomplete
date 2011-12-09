@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Ajax Control Toolkit AutoComplete</title>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.js" type="text/javascript"></script>
+    <!-- include json2.js to provide JSON.stringify() support on older browsers -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/json2/20110223/json2.js" type="text/javascript"></script>
+    <script src="jquery.act.autocomplete.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('input[type=text].autocomplete').actAutocomplete({
+                // path to the service endpoint
+                servicePath: 'AutoComplete.Service.asmx',
+                // name of the service method
+                serviceMethod: 'autoComplete'
+            });
+        });
+    </script>
+</head>
+<body>
+    <form action=""><input type="text" class="autocomplete" /></form>
+</body>
+</html>
