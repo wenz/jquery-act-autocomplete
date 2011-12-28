@@ -1,0 +1,34 @@
+{
+    "name": "act-autocomplete",
+    "version": "0.1.0",
+    "title": "Ajax Control Toolkit AutoComplete",
+    "author": {
+        "name": "Christian Wenz",
+        "url": "https://github.com/wenz"
+    },
+    "licenses": [
+        {
+            "type": "BSD",
+            "url": "BSD-LICENSE.txt"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">=1.4.0",
+        "jquery-ui": ">=1.8.0"
+    },
+    "description": "The Ajax Control Toolkit AutoComplete plugin supports the migration from Microsoft´s Ajax Control Toolkit AutoComplete extender to jQuery UI.",
+    "keywords": [
+        "Ajax Control Toolkit",
+        "Autocomplete",
+        "Integration",
+        "Microsoft Ajax Library",
+        "Plugins"
+    ],
+    "homepage": "https://github.com/wenz/jquery-act-autocomplete",
+    "files": [
+        "jquery.act.autocomplete.js",
+        "jquery.act.autocomplete.min.js",
+        "AutoComplete.Service.asmx",
+        "actAutocomplete.html"
+    ]
+}
