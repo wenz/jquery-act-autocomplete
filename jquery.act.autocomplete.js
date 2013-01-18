@@ -1,11 +1,10 @@
 ﻿/*
-* Ajax Control Toolkit Autocomplete plug-in 0.1.0
+* Ajax Control Toolkit Autocomplete plug-in v0.1.1
 *
-* Copyright (c) 2011 Christian Wenz
+* Copyright (c) 2011-2013 Christian Wenz
 *
-* Dual licensed under the MIT and GPL licenses:
-*   http://www.opensource.org/licenses/mit-license.php
-*   http://www.gnu.org/licenses/gpl.html
+* Licensed under the BSD license:
+*   http://opensource.org/licenses/BSD-3-Clause
 */
 
 (function ($) {
